@@ -1,5 +1,7 @@
 import "./App.css";
-import Challenge5 from "./EventHandling/Challenge5";
+import Challenge7 from "./Forms/Challenge7";
+// import Challenge5 from "./EventHandling/Challenge5";
+// import Challenge6 from "./Keys/Challenge6";
 // import Challenge4 from "./InlineConditional/Challenge4";
 // import Challenge3 from "./WhatAreProps/Challenge3";
 // import Challenge1 from "./MapAndFilter/Challenge1";
@@ -12,7 +14,9 @@ function App() {
       {/* <Challenge2 /> */}
       {/* <Challenge3 /> */}
       {/* <Challenge4 /> */}
-      <Challenge5 />
+      {/* <Challenge5 /> */}
+      {/* <Challenge6 /> */}
+      <Challenge7 />
     </div>
   );
 }
