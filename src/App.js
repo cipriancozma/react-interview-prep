@@ -1,5 +1,6 @@
 import "./App.css";
-import Challenge8 from "./DynamicInputs/Challenge8";
+import Challenge9 from "./CssInReact/Challenge9";
+// import Challenge8 from "./DynamicInputs/Challenge8";
 // import Challenge7 from "./Forms/Challenge7";
 // import Challenge5 from "./EventHandling/Challenge5";
 // import Challenge6 from "./Keys/Challenge6";
@@ -18,7 +19,8 @@ function App() {
       {/* <Challenge5 /> */}
       {/* <Challenge6 /> */}
       {/* <Challenge7 /> */}
-      <Challenge8 />
+      {/* <Challenge8 /> */}
+      <Challenge9 />
     </div>
   );
 }
