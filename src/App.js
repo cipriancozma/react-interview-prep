@@ -1,6 +1,7 @@
 import "./App.css";
+import Challenge11 from "./VirtualDOM/Challenge11";
 // import Challenge9 from "./CssInReact/Challenge9";
-import Challenge10 from "./UncontrolledVsControlled/Challenge10";
+// import Challenge10 from "./UncontrolledVsControlled/Challenge10";
 // import Challenge8 from "./DynamicInputs/Challenge8";
 // import Challenge7 from "./Forms/Challenge7";
 // import Challenge5 from "./EventHandling/Challenge5";
@@ -22,7 +23,8 @@ function App() {
       {/* <Challenge7 /> */}
       {/* <Challenge8 /> */}
       {/* <Challenge9 /> */}
-      <Challenge10 />
+      {/* <Challenge10 /> */}
+      <Challenge11 />
     </div>
   );
 }
