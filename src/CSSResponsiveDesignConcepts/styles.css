@@ -1,0 +1,50 @@
+/* .main {
+    display: flex;
+}
+
+.box {
+    background: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+@media (min-width: 300px) {
+    .box {
+        background: red;
+    }
+}
+
+@media (orientation: landscape) {
+    .box {
+        background: yellowgreen;
+    }
+}
+
+@custom-media --small (width >= 500px);
+
+@media (--small) {
+    .box {
+        background: yellow;
+    }
+}
+
+/* container queries */
+/* .sidebar {
+    width: 20%;
+    border-left: 1px solid black;
+} */ 
+
+.box {
+    background: rebeccapurple;
+    height: 200px;
+    margin: 20px;
+    width: clamp(300px, 75%, 500px); /* usefull for adjust the width based on the viewport - also good for font-size */
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+}
