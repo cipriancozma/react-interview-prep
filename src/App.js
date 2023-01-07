@@ -1,5 +1,6 @@
 import "./App.css";
-import Challenge18 from "./ClassVsClassnames/Challenge18";
+import Challenge20 from "./HigherOrderComponents/Challenge20";
+// import Challenge18 from "./ClassVsClassnames/Challenge18";
 // import Challenge17 from "./ContextAPI/Challenge17";
 // import CSSChallenge from "./CSSResponsiveDesignConcepts/CSSChallenge";
 // import Challenge16 from "./DebouncingInReact/Challenge16";
@@ -40,7 +41,8 @@ function App() {
       {/* <Challenge15 /> */}
       {/* <Challenge16 /> */}
       {/* <Challenge17 /> */}
-      <Challenge18 />
+      {/* <Challenge18 /> */}
+      <Challenge20 />
       {/* <ExtraChallenge /> */}
       {/* <CSSChallenge /> */}
     </div>
