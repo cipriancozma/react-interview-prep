@@ -1,5 +1,6 @@
 import "./App.css";
-import Challenge21 from "./LazyLoading/Challenge21";
+import Challenge22 from "./HelperFunctions/Challenge22";
+// import Challenge21 from "./LazyLoading/Challenge21";
 // import Challenge20 from "./HigherOrderComponents/Challenge20";
 // import Challenge18 from "./ClassVsClassnames/Challenge18";
 // import Challenge17 from "./ContextAPI/Challenge17";
@@ -44,7 +45,8 @@ function App() {
       {/* <Challenge17 /> */}
       {/* <Challenge18 /> */}
       {/* <Challenge20 /> */}
-      <Challenge21 />
+      {/* <Challenge21 /> */}
+      <Challenge22 />
       {/* <ExtraChallenge /> */}
       {/* <CSSChallenge /> */}
     </div>
