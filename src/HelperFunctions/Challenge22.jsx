@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { getUsers } from "./getAllUsers";
 
+// separate logic from UI
 function Challenge22() {
-  return <div>Challenge22</div>;
+  useEffect(() => {
+    getUsers("posts");
+  }, []);
+
+  return (
+    <div>
+      <h1>Helper Functions</h1>
+    </div>
+  );
 }
 
 export default Challenge22;

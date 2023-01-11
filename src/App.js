@@ -1,5 +1,6 @@
 import "./App.css";
-import Challenge22 from "./HelperFunctions/Challenge22";
+import Challenge23 from "./RecursionInReact/Challenge23";
+// import Challenge22 from "./HelperFunctions/Challenge22";
 // import Challenge21 from "./LazyLoading/Challenge21";
 // import Challenge20 from "./HigherOrderComponents/Challenge20";
 // import Challenge18 from "./ClassVsClassnames/Challenge18";
@@ -46,7 +47,8 @@ function App() {
       {/* <Challenge18 /> */}
       {/* <Challenge20 /> */}
       {/* <Challenge21 /> */}
-      <Challenge22 />
+      {/* <Challenge22 /> */}
+      <Challenge23 />
       {/* <ExtraChallenge /> */}
       {/* <CSSChallenge /> */}
     </div>
